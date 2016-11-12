@@ -1,3 +1,7 @@
+
+พรทิพย์  เกิดรัตน์  57030199
+ 
+ 
 #ใบงานที่ 7
 ##เรื่อง  พื้นฐานภาษา C#
 ##วัตถุประสงค์
@@ -56,6 +60,10 @@ Maximum Value :2147483647
 
 คำสั่งสำหรับการทดลอง
 ให้นักศึกษา เขียนโปรแกรมคล้ายกับตัวอย่างที่ 1 โดยมีชนิดข้อมูลเป็น byte, char, bool, sbyte, short, ushort, uint, float, double, decimal, long และ ulong
+
+ตอบ bool ทำไม่ได้
+
+![](https://github.com/prontip/LAB-07/blob/master/lab7_1.png?raw=true)
 
 **หมายเหตุ**
  
@@ -119,6 +127,8 @@ namespace RandomNumber
 
 1. ให้พิมพ์ค่าตัวแปร boolean ในข้อ 3 ออกทางหน้าจอ
 
+
+![](https://github.com/prontip/LAB-07/blob/master/lab7_bloon1.png?raw=true)
 
 ##การเขียนโปรแกรมด้วยตัวดำเนินการทางตรรกะ
 
@@ -211,6 +221,8 @@ namespace thruthTable
 6. Exclusive OR
 ```
 
+![](https://github.com/prontip/LAB-07/blob/master/lab7_2.png?raw=true)
+
 
 
   2.2.2.	ชนิดข้อมูลตัวเลขจำนวนเต็ม (Integer Types)
@@ -252,6 +264,9 @@ public class intergerTest
 9.	y%8
 10.	100*x+y%2-a
 ```
+
+![](https://github.com/prontip/LAB-07/blob/master/lab7_3.png?raw=true)
+
 ##2.2.3. ชนิดข้อมูลเลขทศนิยม (Floating Point and Decimal Types)
 ตัวเลขจำนวนทศนิยม มักจะใช้ในการคำนวณทางวิทยาศาสตร์ เนื่องจากค่าในวิทยาศาสตร์ต้องการความละเอียดสูง หรือมีค่าสูงมากกว่าที่เลขจำนวนเต็มจะเก็บได้
 
@@ -287,6 +302,8 @@ namespace variableProperties
     }
 }
 ```
+
+
 ผลที่ได้จากโปรแกรม
 ```
 Light speed = 186000 Mile Per second
@@ -307,7 +324,9 @@ Mars |	227,940,000 km
 Jupiter |	778,330,000 km		
 Uranus |	2,873,550,000 km		
 Neptune |	4,501,000,000 km		
-Pluto |	5,945,900,000 km		
+Pluto |	5,945,900,000 km
+
+![](https://github.com/prontip/LAB-07/blob/master/lab7_4.png?raw=true)
 
 ##คลาส Math 
 ในภาษา C# มีคลาสที่เป็นตัวช่วยคำนวณทางคณิตศาสตร์ ที่ช่วยให้เราสามารถคำนวณฟังก์ชันพื้นฐานได้ อย่างรวดเร็ว ไม่ต้องพัฒนาโปรแกรมเพิ่มเติมด้วยเอง นั่นคือคลาส Math  ฟังก์ชันทางคณิตศาสตร์ที่ใช้บ่อยๆ สามารถดูรายละเอียดทั้งหมดได้จาก 
@@ -362,9 +381,15 @@ The sine of       6.00 = -0.279415         *
 
 ##การทดลอง พล็อตรูปคลื่นทางคณิตศาสตร์
 จากโปรแกรมตัวอย่าง ให้ดัดแปลงโปรแกรมเพื่อวาดรูปคลื่นดังต่อไปนี้
-```
+
 1.	y = x2
+![](https://github.com/prontip/LAB-07/blob/master/lab7_5.png?raw=true)	
+
 2.	y = cos(x)
+
+![](https://github.com/prontip/LAB-07/blob/master/lab7_6.png?raw=true)
+
 3.	y = tan(x)
-```
 	
+
+![](https://github.com/prontip/LAB-07/blob/master/lab7_7.png?raw=true)
